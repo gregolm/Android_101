@@ -2,7 +2,6 @@ package com.example.gregolm.android_101.utilities.network;
 
 import com.example.gregolm.android_101.dto.Map;
 import com.google.gson.Gson;
-import com.google.gson.internal.LinkedTreeMap;
 
 import java.io.IOException;
 import java.io.InputStream;
