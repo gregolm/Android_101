@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_101</string>
+    <string name="action_credits">Credits</string>
+    <string name="title_activity_credits">Special Thanks to...</string>
+
+    <!-- Login Activity strings -->
+    <string name="login_username_prompt">Username</string>
+    <string name="login_password_prompt">Password</string>
+    <string name="login_map_prompt">Play Map</string>
+    <string name="login_login_button">Let\'s Play</string>
+    <string name="login_username_empty_error">Username cannot be blank!</string>
+    <string name="login_password_short_error">Password too short</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

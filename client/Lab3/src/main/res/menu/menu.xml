@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gregolm.com.example.gregolm.android_101.activities.CreditsActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_credits"
+        android:orderInCategory="100"  />
+</menu>
