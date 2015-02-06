@@ -1,8 +1,10 @@
-package com.example.gregolm.android_101;
+package com.example.gregolm.android_101.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
+
+import com.example.gregolm.android_101.R;
 
 
 public class CreditsActivity extends Activity {

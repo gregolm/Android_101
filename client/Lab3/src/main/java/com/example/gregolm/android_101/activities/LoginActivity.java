@@ -1,23 +1,21 @@
-package com.example.gregolm.android_101;
+package com.example.gregolm.android_101.activities;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.gregolm.android_101.utilities.network.Network;
+import com.example.gregolm.android_101.R;
 import com.example.gregolm.android_101.dto.Map;
-import com.google.gson.internal.LinkedTreeMap;
 
 import java.io.IOException;
 import java.util.ArrayList;
