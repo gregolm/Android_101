@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,12 +14,14 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.example.gregolm.android_101.utilities.MapLibrary;
 import com.example.gregolm.android_101.utilities.network.Network;
 import com.example.gregolm.android_101.R;
 import com.example.gregolm.android_101.dto.Map;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 
@@ -65,6 +68,7 @@ public class LoginActivity extends Activity {
     private void updateMapList(Map[] maps) {
         availableMaps = maps;
         List<String> mapList = new ArrayList<String>();
+        MapLibrary.getInstance().populateLibrary(maps);
         for (int i = 0; i < maps.length; i++) {
             mapList.add(maps[i].getName());
         }
